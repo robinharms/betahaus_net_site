@@ -1,0 +1,13 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     class="header header-static-top">
+  <div class="header-inner">
+    <div class="container">
+      <span class="brand">
+        <a href="${request.application_url}/">
+            <img src="${request.application_url}/static/logo.jpg" alt="${api.site_title}">
+        </a>
+      </span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<tal:block>
+<footer>
+  <p class="pull-left">&copy; Betahaus 2013</p>
+</footer>
+</tal:block>

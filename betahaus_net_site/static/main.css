@@ -1,0 +1,43 @@
+@media (min-width: 1200px) {
+    body {
+        background-image: url(/static/green-banner.jpg);
+        background-repeat: no-repeat;
+        background-position: right 120px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    margin-bottom: 1em;
+}
+
+#inner-content {
+    font-size: 20px;
+    font-family: Baskerville;
+    line-height: 1.5em;    
+}
+.header-static-top {
+    position: static;
+    margin-bottom: 0;
+}
+.brand img {
+    padding: 5px 0px 10px 0;
+}
+.navbar-inverse .nav {
+    border-left: 2px solid white;
+}
+.navbar-inverse .nav > li {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-right: 2px solid white;
+    padding: 5px 2em 0 10px;
+    min-height: 35px;
+}
+.navbar-inverse .nav > li > a {
+    color: #fff;
+    padding: 0px;
+}
